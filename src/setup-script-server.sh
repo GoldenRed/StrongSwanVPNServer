@@ -1,7 +1,7 @@
 #!/bin/bash
 # Inspired by https://www.digitalocean.com/community/tutorials/how-to-set-up-an-ikev2-vpn-server-with-strongswan-on-ubuntu-20-04
 
-mydomain='insert domain'
+serverdomain='insert domain'
 user='insert username'
 pass='insert password'
 
@@ -63,7 +63,7 @@ conn ikev2-vpn
     ike=chacha20poly1305-sha512-curve25519-prfsha512,aes256gcm16-sha384-prfsha384-ecp384,aes256-sha1-modp1024,aes128-sha1-modp1024,3des-sha1-modp1024!
     esp=chacha20poly1305-sha512,aes256gcm16-ecp384,aes256-sha256,aes256-sha1,3des-sha1!"
 
-ipsecconf_contents=${ipsecconf_contents//toreplace/$mydomain}
+ipsecconf_contents=${ipsecconf_contents//toreplace/$serverdomain}
 ### Note: We have to add an @-symbol before the domain name. If it were an IP-adress we would not have the @-symbol.
 
 mv /etc/ipsec.conf{,.original}
