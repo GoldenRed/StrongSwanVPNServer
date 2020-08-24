@@ -1,9 +1,7 @@
 #!/bin/bash
 # Inspired by https://www.digitalocean.com/community/tutorials/how-to-set-up-an-ikev2-vpn-server-with-strongswan-on-ubuntu-20-04
 
-mydomain='ipsec-vpn-server.yared.se'
-user='user'
-pass='dataitsak'
+
 
 
 ## Step 1: Installing StrongSwan
