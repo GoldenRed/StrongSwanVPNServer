@@ -1,9 +1,6 @@
 #!/bin/bash
 
-serverdomain='ipsec-vpn-server.yared.se'
-serverip='13.48.204.170'
-user='user'
-pass='dataitsak'
+
 
 # Installing Strongswan
 apt update -y
