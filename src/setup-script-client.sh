@@ -1,6 +1,9 @@
 #!/bin/bash
 
-
+serverdomain='insert domain'
+serverip='insert server ip'
+user='insert username'
+pass='insert password'
 
 # Installing Strongswan
 apt update -y
