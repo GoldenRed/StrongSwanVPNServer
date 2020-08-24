@@ -3,3 +3,4 @@ infrastructure/terraform.tfstate
 infrastructure/terraform.tfstate.backup
 infrastructure/SS_EC2_key.pem
 infrastructure/.terraform
+src/data.txt
