@@ -10,3 +10,6 @@ This directory contains scripts and files to set up StrongSwan automatically.
 
 # NOTES
 - If you wish to use a raw IP adress instead of a domain remove the @-symbol in the leftid field in /etc/ipsec.conf
+
+# CREDITS
+This repo is based off of: https://www.digitalocean.com/community/tutorials/how-to-set-up-an-ikev2-vpn-server-with-strongswan-on-ubuntu-20-04

@@ -1,2 +1,2 @@
 # StrongSwanVPNServer
-Repo for setting up an IKEv2 VPN Server with StrongSwan
+Repo for setting up an IKEv2 VPN Server with StrongSwan. Credits for the src script files: https://www.digitalocean.com/community/tutorials/how-to-set-up-an-ikev2-vpn-server-with-strongswan-on-ubuntu-20-04, but I set up the Terraform scripts myself.
